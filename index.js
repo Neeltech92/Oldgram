@@ -34,19 +34,19 @@ let postFeed = ""
 for (let i=0; i<posts.length; i++) {
    postFeed += `
                 <div class="post-info">
-                    <img id="account-img" src='../${posts[i].avatar}' alt="image of ${posts[i].name}" />
+                    <img id="account-img" src='../../${posts[i].avatar}' alt="image of ${posts[i].name}" />
                     <div class="name-loc">
                         <a href="#" id="account-name">${posts[i].name}</a>
                         <a href="#" id="account-location">${posts[i].location}</a>
                     </div>
                 </div>
                 
-                <img class="post-img" src='${posts[i].post}'>
+                <img class="post-img" src='${posts[i].post}' alt=''>
                 
                 <div class="container">
-                    <img class="heart" src="images/icon-heart.png" alt="like button">
-                    <img class="comment" src="images/icon-comment.png" alt="comment button">
-                    <img class="share" src = "images/icon-dm.png" alt="share button">
+                    <img class="heart" src="images/icon-heart.png" alt="like button" alt=''>
+                    <img class="comment" src="images/icon-comment.png" alt="comment button" alt=''>
+                    <img class="share" src = "images/icon-dm.png" alt="share button" alt=''>
                 </div>
                 
                 <div class="post-cap">

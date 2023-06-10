@@ -34,7 +34,7 @@ let postFeed = ""
 for (let i=0; i<posts.length; i++) {
    postFeed += `
                 <div class="post-info">
-                    <img id="account-img" src='${posts[i].avatar}'>
+                    <img id="account-img" src='${posts[i].avatar}' alt="image of ${posts[i].name}" />
                     <div class="name-loc">
                         <a href="#" id="account-name">${posts[i].name}</a>
                         <a href="#" id="account-location">${posts[i].location}</a>
